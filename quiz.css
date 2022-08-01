@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Akshar&family=Lato&family=Poppins&family=Roboto+Serif:opsz@8..144&family=Roboto:wght@400;500&family=Tiro+Gurmukhi&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 18px;
+    font-family: 'Roboto Serif', serif;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to left top, #607EAA, #0F3D3E);
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.quiz-box {
+    width: 600px;
+    margin: 0 auto;
+    background-color: #eee;
+    padding: 1rem 5rem 5rem 5rem;
+    border: 3px solid peru;
+    border-radius: 4px;
+}
+
+.quiz-box h1 {
+    background-color: peru;
+    font-size: 25px;
+    text-align: center;
+    color: #eee;
+    padding: .7rem 0;
+    width: 100%;
+    margin-bottom: 2rem;
+    border-radius: 3px;
+}
+
+.quiz-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.quiz-header #progress {
+    color: #607EAA;
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+.quiz-header #count-down {
+    font-size: .8rem;
+    font-weight: 700;
+    background-color: #0F3D3E;
+    padding: 5px;
+    margin: 1px;
+    color: white;
+    border-radius: 3px;
+}
+
+ #question {
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #0F3D3E;
+    border: 1px solid #666;
+    border-width: 1px 0;
+    padding: 5px 0;
+}
+
+.buttons {
+    margin: 1.5rem 0 4rem 0;
+}
+
+.btn {
+    text-align: left;
+    background-color: #ddd;
+    width: 100%;
+    font-size: 1.3rem;
+    color: black;
+    border: 1px solid peru;
+    border-radius: 5px;
+    margin: 7px 0;
+    padding: .5rem;
+    outline: none;
+}
+
+.btn:hover {
+    cursor: pointer;
+    background-color: peru;
+    color: #0F3D3E;
+}
+
+.btn:active {
+    background-color: #607EAA;
+}
+
+#score {
+    color: #0F3D3E;
+    text-align: center;
+    font-size: 1.3rem;
+    margin-bottom: 3rem;
+}
+
+.quiz-repeat {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.quiz-repeat a {
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #eee;
+    text-decoration: none;
+    background-color: #0F3D3E;
+    padding: .5rem;
+    border-radius: 5px;
+    transition: all .3s;
+}
+
+.quiz-repeat a:hover {
+    background-color: peru;
+}
+
+footer p{
+    color: #0F3D3E;
+    font-family: 600;
+}
